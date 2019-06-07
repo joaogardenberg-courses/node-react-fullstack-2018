@@ -1,3 +1,5 @@
+const express = require('express');
+
 module.exports = (app) => {
   if (process.env.NODE_ENV === 'production') {
     // Express will serve up production assets
