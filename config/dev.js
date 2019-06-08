@@ -5,5 +5,7 @@ module.exports = {
   mongoURI:             'mongodb+srv://dbUser:W2kyUypHjsCBiRMd@emaily-7nw0z.mongodb.net/test?retryWrites=true&w=majority',
   cookieKey:            'hGSAKkygyjasajGSTglejdioWHADUhafulsajfhl',
   stripePublishableKey: 'pk_test_RZKehN4DuGnplgHl9pFBbDZi00N5sJCm6n',
-  stripeSecretKey:      'sk_test_0PHvWoZ2eSQL94Rdyauf7r7T00Qq8tRR0h'
+  stripeSecretKey:      'sk_test_0PHvWoZ2eSQL94Rdyauf7r7T00Qq8tRR0h',
+  sendGridKey:          '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',
+  redirectDomain:       'http://localhost:3000'
 };

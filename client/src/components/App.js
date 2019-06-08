@@ -9,7 +9,7 @@ import {
 import Header        from './Header';
 import Landing       from './Landing';
 import Dashboard     from './Dashboard';
-import SurveyNew     from './SurveyNew';
+import New           from './surveys/New';
 import { fetchUser } from '../actions';
 
 class App extends React.Component {
@@ -21,7 +21,7 @@ class App extends React.Component {
             <Header/>
             <Route exact path="/" component={Landing}/>
             <Route exact path="/surveys" component={Dashboard}/>
-            <Route path="/surveys/new" component={SurveyNew}/>
+            <Route path="/surveys/new" component={New}/>
           </div>
         </BrowserRouter>
       </div>

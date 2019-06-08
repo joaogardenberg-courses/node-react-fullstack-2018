@@ -10,7 +10,7 @@ const app = express();
 
 app.use(bodyParser.json());
 
-require('./models/User');
+require('./models');
 
 require('./services/passport');
 
